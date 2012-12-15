@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:id="@+id/widget54"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	
+<AutoCompleteTextView
+	android:id="@+id/image_dir"
+	android:layout_width="200dp"
+	android:layout_height="wrap_content"
+	android:text="/sdcard/DCIM/Camera"
+	android:textSize="10sp"
+	android:layout_x="120dp"
+	android:layout_y="0dp" />
+
+<TextView
+	android:id="@+id/widget87"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Image Directory"
+	android:layout_x="0dp"
+	android:layout_y="0dp" />
+<TextView
+	android:id="@+id/detected"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Detected:"
+	android:layout_x="0dp"
+	android:layout_y="40dp" />
+<TextView
+	android:id="@+id/result"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Result:"
+	android:layout_x="0dp"
+	android:layout_y="60dp" />
+<TextView
+	android:id="@+id/renamed"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Renamed:"
+	android:layout_x="0dp"
+	android:layout_y="80dp" />
+<Button
+	android:id="@+id/button1"
+	android:layout_width="160dp"
+	android:layout_height="40dp"
+	android:text="Rename All"
+	android:layout_x="0dp"
+	android:layout_y="100dp" />
+<Button
+	android:id="@+id/button2"
+	android:layout_width="160dp"
+	android:layout_height="40dp"
+	android:text="Rename Image"
+	android:layout_x="160dp"
+	android:layout_y="100dp" />
+<Button
+	android:id="@+id/prev"
+	android:layout_width="160dp"
+	android:layout_height="40dp"
+	android:text="Prev"
+	android:layout_x="0dp"
+	android:layout_y="410dp" />
+<Button
+	android:id="@+id/next"
+	android:layout_width="160dp"
+	android:layout_height="40dp"
+	android:text="Next"
+	android:layout_x="160dp"
+	android:layout_y="410dp" />
+<ImageView
+    android:id="@+id/imageview"
+    android:layout_width="320dp"
+    android:layout_height="250dp"
+	android:layout_gravity="center"
+	android:layout_x="0dp"
+	android:layout_y="150dp"	 />
+</AbsoluteLayout>

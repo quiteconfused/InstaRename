@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">InstaRename</string>
+    <string name="service_name">InstaRenameService</string>
+    <string name="detected">Detected:</string>
+    <string name="result">Result:</string>
+    <string name="renamed">Renamed:</string>
+
+</resources>
