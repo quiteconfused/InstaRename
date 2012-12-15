@@ -1,0 +1,9 @@
+InstaRename
+***********
+
+This project is a simple image renaming program. The image is cross referenced against google and if there is a best guess associated with the image it will rename it according to that if not it will leave it as it previously was.
+
+This in turn lets the user quickly take images and have them automatically sorted according to content. 
+
+
+This has been tested and works well on android jelly bean and ice cream sandwich :)
